@@ -13,7 +13,7 @@ np.random.seed(1)
 random.seed(2)
 set_random_seed(3)
 
-path='resources/cpi_us_dataset.csv'
+path='CPI_HRNN/resources/cpi_us_dataset.csv'
 
 
 data=preprocess_data(path, look_back, look_forward)
